@@ -11,9 +11,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from process import Process
 from utils.tools import check_balances
 
-# API_TOKEN = "7224716880:AAH0QMviJVDkKt0oYsptuR_M3jzXsEmyods"  # Вставьте сюда токен вашего бота
-# ADMIN_ID = 149260648  # Ваш Telegram user_id для ограничения доступа
-
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
